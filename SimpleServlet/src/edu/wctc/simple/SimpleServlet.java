@@ -35,43 +35,23 @@ public class SimpleServlet extends HttpServlet {
                 "<th>Email</th>" +
                 "<th>IP Address</th>" +
                 "</tr>");
-// prompts index.jsp to print the message in that file: out.println(request.getParameter("message"));
 
         Students theStudents = new Students();
-
-        ArrayList<Individual> result;
+        ArrayList<Individual> result = new ArrayList<Individual>();
         String selection = request.getParameter("search_selection");
-        String accountNum = request.getParameter("account_number");
-        String firstName = request.getParameter("first_name");
-        String lastName = request.getParameter("last_name");
-        String email = request.getParameter("email_address");
-        String ipAddress = request.getParameter("ip_address");
-
-        //result = theStudents.findStudents(FindColumns.ACCTNUM, accountNum, FindColumns.FNAME, firstName, FindColumns.LNAME, lastName, FindColumns.EMAIL, email, FindColumns.IPADDR, ipAddress);
-        result = theStudents.findStudents(FindColumns.ACCTNUM, accountNum);
-        for (Individual i : result) {
-            out.println("<tr><td>" + i.getAccountNumber() + "</td><td>" + i.getFname() + "</td><td>" + i.getLname() + "</td><td>" + i.getEmail() + "</td><td>" + i.getIpAddress() + "</td></tr>");
+        String searchQuery = request.getParameter("search_query");
+        switch(selection)
+        {
+            case "account_number": result = theStudents.findStudents(FindColumns.ACCTNUM, searchQuery);break;
+            case "first_name": result = theStudents.findStudents(FindColumns.FNAME, searchQuery);break;
+            case "last_name": result = theStudents.findStudents(FindColumns.LNAME, searchQuery);break;
+            case "email_address": result = theStudents.findStudents(FindColumns.EMAIL, searchQuery);break;
+            case "ip_address": result = theStudents.findStudents(FindColumns.IPADDR, searchQuery);break;
         }
-/*
-        result = theStudents.findStudents(FindColumns.FNAME, firstName);
-        for (Individual i: result) {
+        for (Individual i : result)
+        {
             out.println("<tr><td>" + i.getAccountNumber() + "</td><td>" + i.getFname() + "</td><td>" + i.getLname() + "</td><td>" + i.getEmail() + "</td><td>" + i.getIpAddress() + "</td></tr>");
         }
 
-        result = theStudents.findStudents(FindColumns.LNAME, lastName);
-        for (Individual i: result) {
-            out.println("<tr><td>" + i.getAccountNumber() + "</td><td>" + i.getFname() + "</td><td>" + i.getLname() + "</td><td>" + i.getEmail() + "</td><td>" + i.getIpAddress() + "</td></tr>");
-        }
-
-        result = theStudents.findStudents(FindColumns.EMAIL, email);
-        for (Individual i: result) {
-            out.println("<tr><td>" + i.getAccountNumber() + "</td><td>" + i.getFname() + "</td><td>" + i.getLname() + "</td><td>" + i.getEmail() + "</td><td>" + i.getIpAddress() + "</td></tr>");
-        }
-
-        result = theStudents.findStudents(FindColumns.IPADDR, ipAddress);
-        for (Individual i: result) {
-            out.println("<tr><td>" + i.getAccountNumber() + "</td><td>" + i.getFname() + "</td><td>" + i.getLname() + "</td><td>" + i.getEmail() + "</td><td>" + i.getIpAddress() + "</td></tr>");
-        }
-*/
     }
 }

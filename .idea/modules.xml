@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DistJava.iml" filepath="$PROJECT_DIR$/DistJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" filepath="$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NameMVC/NameMVC.iml" filepath="$PROJECT_DIR$/NameMVC/NameMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondServlet/SecondServlet.iml" filepath="$PROJECT_DIR$/SecondServlet/SecondServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" filepath="$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" />
     </modules>

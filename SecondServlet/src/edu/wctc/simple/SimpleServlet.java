@@ -71,7 +71,7 @@ public class SimpleServlet extends HttpServlet {
         out.println("</body></html>");
     }
 
-    // Method to handle POST method request.
+    // Method to handle POST method requests
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

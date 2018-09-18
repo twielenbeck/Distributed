@@ -2,7 +2,9 @@
     height: 500px;
     background-image: url(images/backdrop.jpg);
 }
-
+html {
+    overflow-y: scroll;
+}
 nav li {
     display: inline-block;
     padding: 15px;
@@ -14,9 +16,7 @@ nav ul {
 }
 
 #navdiv {
-
     text-align: center;
-
     opacity: .8;
     margin: 0;
     font-size: 20px;
@@ -42,6 +42,11 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+nav a:hover {
+    transition: background-color 0.5s ease;
+    background: dimgray;
+    color: lightgoldenrodyellow;
 }
 .center {
     display: block;

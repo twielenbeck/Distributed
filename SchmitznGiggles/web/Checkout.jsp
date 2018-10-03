@@ -1,18 +1,13 @@
-<%--
+<%@ page import="java.util.List" %>
+<%@ page import="java.util.Iterator" %>
+<%@ page import="us.tomwielenbeck.model.Event" %><%--
   Created by IntelliJ IDEA.
   User: censu
-  Date: 9/18/2018
-  Time: 2:16 AM
+  Date: 9/24/2018
+  Time: 9:01 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@page contentType="text/html;charset=UTF-8" language="java" %>
-<%@page import="java.util.List"%>
-<%@page import="us.tomwielenbeck.model.*"%>
-<%@page import="java.text.NumberFormat" %>
-<%@page import="java.text.SimpleDateFormat" %>
-<%@ page import="java.util.Iterator" %>
-<!DOCTYPE html>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Cart</title>
@@ -36,8 +31,7 @@
     </div>
 </header>
 <body>
-<h2>Your Shopping Cart</h2>
-
+<h2>Confirm Checkout</h2>
 <form action="checkout.go">
     <table>
         <%

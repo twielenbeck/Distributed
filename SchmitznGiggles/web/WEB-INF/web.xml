@@ -3,4 +3,37 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <servlet>
+        <servlet-name>events</servlet-name>
+        <servlet-class>us.tomwielenbeck.controller.EventController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>events</servlet-name>
+        <url-pattern>/events.go</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cartPlace</servlet-name>
+        <servlet-class>us.tomwielenbeck.controller.CartPlaceController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartPlace</servlet-name>
+        <url-pattern>/cartplace.go</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>cart</servlet-name>
+        <servlet-class>us.tomwielenbeck.controller.CartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cart</servlet-name>
+        <url-pattern>/cart.go</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>checkout</servlet-name>
+        <servlet-class>us.tomwielenbeck.controller.CheckoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkout</servlet-name>
+        <url-pattern>/checkout.go</url-pattern>
+    </servlet-mapping>
 </web-app>

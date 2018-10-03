@@ -23,20 +23,16 @@
       <div id="navdiv">
         <ul>
           <li><a href="index.jsp">Home</a></li>
-          <li><a href="Events.jsp">Event Lineup</a></li>
-          <li><a href="EventDetails.jsp">Event Details</a></li>
-          <li><a href="Cart.jsp">Shopping Cart</a></li>
+          <li><a href="events.go">Event Lineup</a></li>
+          <li><a href="cart.go">Shopping Cart</a></li>
         </ul>
       </div>
     </nav>
   </div>
 </header>
 <body>
-
 <div id="homediv">
   <p>Schmitz 'n Giggles is a Website to keep people informed on the shows and workshops put out by Patrick Schmitz and friends.</p>
 </div>
-
-
 </body>
 </html>

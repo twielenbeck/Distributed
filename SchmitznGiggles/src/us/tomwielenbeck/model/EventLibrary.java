@@ -29,7 +29,18 @@ public class EventLibrary
                             "When Katelyn's cancer " +
                             "goes into remission she must reconnect with the family she abandoned, or move on and " +
                             "accept that you can never go home. Based on true events and T.S. Eliot's 'The Wasteland'.",
-                            11.00, "06/19/19 07:30 PM", EventGenre.DRAMA, EventLocation.ALCHEMIST, "katewasteland")
+                            11.00, "06/19/19 07:30 PM", EventGenre.DRAMA, EventLocation.ALCHEMIST, "katewasteland"),
+                    new Event(productincrementer++, "Comedy of Macbeth", "Macbeth is a cool play.",
+                            15.00, "08/09/19 07:30 PM", EventGenre.COMEDY, EventLocation.NEXTACT, "macbeth"),
+                    new Event(productincrementer++, "Merlin", "A sketch parody based on the Merlin folklore.",
+                            8.00, "04/19/19 07:30 PM", EventGenre.COMEDY, EventLocation.UNDERGROUND, "merlin"),
+                    new Event(productincrementer++, "Who Dunnit Halloween Show", "Join Patrick Schmitz " +
+                            "and some of Milwaukee's best improvisers (Robby McGhee, Tim Higgins, Laura Holterman, " +
+                            "Max Bord, Liv Shircel, Josh Decker, and more) Each improviser secretly picks a number " +
+                            "card which will determine the order the characters will die and one will have also " +
+                            "selected a killer card so not even the performers will know who the killer is until the end. \n" +
+                            "It all happens on Friday, October 26th at 7pm at Comedy Sportz. Tickets are $10 and can be purchased at the door.",
+                            10.00, "10/26/18 07:00 PM", EventGenre.IMPPROV, EventLocation.COMEDYSPORTZ, "whodunnit")
             );
     public Event getEventByName(String name)
     {

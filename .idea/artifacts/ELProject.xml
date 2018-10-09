@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ELProject">
+    <output-path>$PROJECT_DIR$/out/artifacts/ELProject</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ELProject/web/Web" />
+      <element id="javaee-facet-resources" facet="ELProject/web/Web" />
+    </root>
+  </artifact>
+</component>

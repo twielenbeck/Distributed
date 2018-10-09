@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DBConsole/DBConsole.iml" filepath="$PROJECT_DIR$/DBConsole/DBConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBSample/DBSample.iml" filepath="$PROJECT_DIR$/DBSample/DBSample.iml" />
       <module fileurl="file://$PROJECT_DIR$//DistributedJava.iml" filepath="$PROJECT_DIR$//DistributedJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" filepath="$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ELProject/ELProject.iml" filepath="$PROJECT_DIR$/ELProject/ELProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSPCookie/JSPCookie.iml" filepath="$PROJECT_DIR$/JSPCookie/JSPCookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPEL/JSPEL.iml" filepath="$PROJECT_DIR$/JSPEL/JSPEL.iml" />
       <module fileurl="file://$PROJECT_DIR$/NameMVC/NameMVC.iml" filepath="$PROJECT_DIR$/NameMVC/NameMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" filepath="$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" />

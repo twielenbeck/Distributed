@@ -1,5 +1,6 @@
 #backdrop {
-    height: 500px;
+    height: auto;
+    width: auto;
     background-image: url(images/backdrop.jpg);
 }
 html {
@@ -12,7 +13,7 @@ body {
 }
 nav li {
     display: inline-block;
-    padding: 15px;
+    padding: 15px 15px 0px 15px;
 }
 nav ul {
     margin: 0;
@@ -39,6 +40,9 @@ thead th {
     background: dimgrey;
     color: lightgoldenrodyellow;
 }
+.quantity {
+    width: 65px;
+}
 .eventlist td img {
     max-width: 250px;
     max-height: 250px;
@@ -64,11 +68,11 @@ thead th {
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 #toptitlediv {
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
     color: lightgoldenrodyellow;
     font-size: 40px;
-    padding-bottom: 104px;
+    padding-bottom: 50px;
 }
 #homediv {
     margin-left: 30%;

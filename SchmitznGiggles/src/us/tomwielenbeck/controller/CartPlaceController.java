@@ -16,19 +16,25 @@ public class CartPlaceController extends HttpServlet {
         Enumeration paramNames = request.getParameterNames();
         String paramName;
         String theOrder = "";
-        while(paramNames.hasMoreElements()) {
+        while(paramNames.hasMoreElements())
+        {
             paramName = (String)paramNames.nextElement();
-            if(paramName.equals("cartItem")) {
+
+            if(paramName.equals("cartItem"))
+            {
                 String[] paramValues = request.getParameterValues(paramName);
                 // Read single valued data
-                if (paramValues.length == 1) {
-                    String paramValue = paramValues[0];
+                if (paramValues.length == 1)
+                {
+                    String paramValue = paramValues[0] + ",";
                     if (paramValue.length() == 0)
                         theOrder += "Empty Cart";
                     else
                         theOrder += paramValue;
-                } else {
-                    for (int i = 0; i < paramValues.length; i++) {
+                } else
+                    {
+                    for (int i = 0; i < paramValues.length; i++)
+                    {
                         theOrder += paramValues[i] + ",";
                     }
                     theOrder = theOrder.substring(0, theOrder.length() - 1);

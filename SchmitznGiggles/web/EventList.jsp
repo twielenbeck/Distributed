@@ -8,8 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page import="java.util.List"%>
 <%@page import="us.tomwielenbeck.model.*"%>
-<%@ page import="java.text.NumberFormat" %>
-<%@ page import="java.text.SimpleDateFormat" %>
 <%@ page import="java.util.Iterator" %>
 <%@ page import="java.text.ParseException" %>
 <!DOCTYPE html>
@@ -62,7 +60,10 @@
                                 "<td align='center'><img src='" + item.getImage() + "' ></td>" +
                                 "<td align='center'>" + item.getDate() + "</td>" +
                                 "<td align='center'>$" + item.getPrice() + "0</td>" +
-                                "<td align='center'>Add to Cart<br><input type='checkbox' name='cartItem' value=" + item.getProductNumber() + "></td>" +
+                                "<td align='center'>Add to Cart" +
+                                "<br>" +
+                                "<input type='number' name='qty' placeholder='Quantity' class='quantity'>" +
+                                "<input type='checkbox' name='cartItem' value=" + item.getProductNumber() + "></td>" +
                                 "</tr>"
                                 );
                         } catch (ParseException e) {

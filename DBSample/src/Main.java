@@ -22,17 +22,17 @@ public class Main {
             System.out.println("Inserting records into the table...");
             stmt = conn.createStatement();
 
-            String sql = "INSERT INTO Coffee " +
+            String sql = "INSERT INTO COFFEE " +
                     "VALUES ('Bering Sea Blend' , '20-110',  18.55)";
             stmt.executeUpdate(sql);
-            sql = "INSERT INTO Coffee " +
+            sql = "INSERT INTO COFFEE " +
                     "VALUES ('Bali Blue Moon', '20-115', 15.45)";
             stmt.executeUpdate(sql);
-            sql = "INSERT INTO Coffee " +
+            sql = "INSERT INTO COFFEE " +
                     "VALUES ('Brazil Mogiana', '20-120', 11.30)";
             stmt.executeUpdate(sql);
-            sql = "INSERT INTO Coffee " +
-                    "VALUES('Ethiopia Harrar', '20-125', 12.28)";
+            sql = "INSERT INTO COFFEE " +
+                    "VALUES('Ethiopia Harrar', '20-125', 29.00)";
             stmt.executeUpdate(sql);
             System.out.println("Inserted records into the table...");
             //Clean-up environment
@@ -71,7 +71,7 @@ public class Main {
             System.out.println("Creating statement...");
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT ProdNum, Description, Price FROM Coffee";
+            sql = "SELECT ProdNum, Description, Price FROM COFFEE";
             ResultSet rs = stmt.executeQuery(sql);
 
             while(rs.next()){

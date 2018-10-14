@@ -2,13 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ce5abce-2473-4abb-9818-f51b3f41f4ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DBConsole/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/derby.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreateCoffeeDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SampleMVCWithCart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleMVCWithCart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/303f4352-e71d-4d29-aef1-d907f0b81adf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/c0e56050-b147-41b8-870c-0817d2af6041/storage_v2/_src_/schema/SQLJ.XPQmAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/c0e56050-b147-41b8-870c-0817d2af6041/storage_v2/_src_/schema/SYSCS_UTIL.JC_i2A.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources/c0e56050-b147-41b8-870c-0817d2af6041/storage_v2/_src_/schema/SYSIBM.hzyvkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeDB/log/log5.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5DB/Project5DB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5DB/src/CreateProject5DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project5DB/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/derby.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/derby.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/dbex.lck" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/dbex.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c10.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c171.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c180.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c180.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c191.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c191.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1e0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1e0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c1f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c1f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c221.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c241.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c251.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c260.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c260.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c271.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c271.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c281.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c281.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c290.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c290.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2c1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2d0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c2f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c2f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c300.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c300.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c311.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c311.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c321.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c321.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c331.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c331.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c340.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c340.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c351.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c351.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c361.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c361.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c371.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c371.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c380.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c380.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c391.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c391.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3b1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3d1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3e1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c3f1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c3f1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c411.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c421.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c430.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c430.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c441.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c441.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c451.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c451.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c461.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c461.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c470.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c481.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cab0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cab0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cac1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cac1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cad0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cad0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cae1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cae1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/caf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/caf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cb01.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cb01.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cb11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cb11.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cc0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cc0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cd1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cd1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/ce1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/ce1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeDB/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da80.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/da91.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeDB/seg0/daa1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBSample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DBSample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBSample/CreateCoffeeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBSample/CreateCoffeeDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DBSample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DBSample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreateCoffeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateCoffeeDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,6 +191,15 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="1417280734">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -102,17 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="255">
               <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1936086-32b3-4ee1-896b-73bfb77044e9/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -153,10 +257,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="20" />
     <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,8 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +284,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,9 +294,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538924412768" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -238,17 +342,19 @@
       <workItem from="1538845695915" duration="4125000" />
       <workItem from="1538921170905" duration="3286000" />
       <workItem from="1538942894533" duration="344000" />
+      <workItem from="1539046894749" duration="188000" />
+      <workItem from="1539071371875" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8563000" />
+    <option name="totallyTimeSpent" value="8760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.061703555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -257,7 +363,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35789475" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3569405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,30 +392,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3337c5b4-b4ca-42d3-94bb-a801c07d73e6/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a785789-0962-4f05-830d-1699ba284069/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/322f4f95-83f9-4e5a-86b2-b8527577b57f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/164b2bf6-013e-4506-999a-c18e173bd7a5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3337c5b4-b4ca-42d3-94bb-a801c07d73e6/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a785789-0962-4f05-830d-1699ba284069/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/322f4f95-83f9-4e5a-86b2-b8527577b57f/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/164b2bf6-013e-4506-999a-c18e173bd7a5/console.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1936086-32b3-4ee1-896b-73bfb77044e9/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/CreateCoffeeDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -319,15 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="255">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1936086-32b3-4ee1-896b-73bfb77044e9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -360,6 +440,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -388,7 +469,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

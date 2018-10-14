@@ -50,7 +50,7 @@ public class CreateCoffeeDB
             try
             {
                 // Drop the Customer table.
-                stmt.execute("DROP TABLE Customer");
+                stmt.execute("DROP TABLE CUSTOMER");
                 System.out.println("Customer table dropped.");
             } catch (SQLException ex)
             {
@@ -61,7 +61,7 @@ public class CreateCoffeeDB
             try
             {
                 // Drop the Coffee table.
-                stmt.execute("DROP TABLE Coffee");
+                stmt.execute("DROP TABLE COFFEE");
                 System.out.println("Coffee table dropped.");
             } catch (SQLException ex)
             {
@@ -94,109 +94,109 @@ public class CreateCoffeeDB
                     ")");
 
             // Insert row #1.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Bolivian Dark', " +
                     "'14-001', " +
                     "8.95 )");
 
             // Insert row #1.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Bolivian Medium', " +
                     "'14-002', " +
                     "8.95 )");
 
             // Insert row #2.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Brazilian Dark', " +
                     "'15-001', " +
                     "7.95 )");
 
             // Insert row #3.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Brazilian Medium', " +
                     "'15-002', " +
                     "7.95 )");
 
             // Insert row #4.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Brazilian Decaf', " +
                     "'15-003', " +
                     "8.55 )");
 
             // Insert row #5.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Central American Dark', " +
                     "'16-001', " +
                     "9.95 )");
 
             // Insert row #6.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Central American Medium', " +
                     "'16-002', " +
                     "9.95 )");
 
             // Insert row #1.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Sumatra Dark', " +
                     "'17-001', " +
                     "7.95 )");
 
             // Insert row #7.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Sumatra Decaf', " +
                     "'17-002', " +
                     "8.95 )");
 
             // Insert row #8.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Sumatra Medium', " +
                     "'17-003', " +
                     "7.95 )");
 
             // Insert row #9.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Sumatra Organic Dark', " +
                     "'17-004', " +
                     "11.95 )");
 
             // Insert row #10.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Kona Medium', " +
                     "'18-001', " +
                     "18.45 )");
 
             // Insert row #11.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Kona Dark', " +
                     "'18-002', " +
                     "18.45 )");
 
             // Insert row #12.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'French Roast Dark', " +
                     "'19-001', " +
                     "9.65 )");
 
             // Insert row #13.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Galapagos Medium', " +
                     "'20-001', " +
                     "6.85 )");
 
             // Insert row #14.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Guatemalan Dark', " +
                     "'21-001', " +
                     "9.95 )");
 
             // Insert row #15.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Guatemalan Decaf', " +
                     "'21-002', " +
                     "10.45 )");
 
             // Insert row #16.
-            stmt.execute("INSERT INTO Coffee VALUES ( " +
+            stmt.execute("INSERT INTO COFFEE VALUES ( " +
                     "'Guatemalan Medium', " +
                     "'21-003', " +
                     "9.95 )");
@@ -220,7 +220,7 @@ public class CreateCoffeeDB
             Statement stmt = conn.createStatement();
 
             // Create the table.
-            stmt.execute("CREATE TABLE Customer" +
+            stmt.execute("CREATE TABLE CUSTOMER" +
                     "( CustomerNumber CHAR(10) NOT NULL PRIMARY KEY, " +
                     "  Name CHAR(25)," +
                     "  Address CHAR(25)," +
@@ -229,16 +229,16 @@ public class CreateCoffeeDB
                     "  Zip CHAR(5) )");
 
             // Add some rows to the new table.
-            stmt.executeUpdate("INSERT INTO Customer VALUES" +
+            stmt.executeUpdate("INSERT INTO CUSTOMER VALUES" +
                     "('101', 'Downtown Cafe', '17 N. Main Street'," +
                     " 'Asheville', 'NC', '55515')");
 
-            stmt.executeUpdate("INSERT INTO Customer VALUES" +
+            stmt.executeUpdate("INSERT INTO CUSTOMER VALUES" +
                     "('102', 'Main Street Grocery'," +
                     " '110 E. Main Street'," +
                     " 'Canton', 'NC', '55555')");
 
-            stmt.executeUpdate("INSERT INTO Customer VALUES" +
+            stmt.executeUpdate("INSERT INTO CUSTOMER VALUES" +
                     "('103', 'The Coffee Place', '101 Center Plaza'," +
                     " 'Waynesville', 'NC', '55516')");
 

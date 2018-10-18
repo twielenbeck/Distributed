@@ -13,5 +13,11 @@
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
       <jdbc-url>jdbc:derby:$PROJECT_DIR$/CoffeeDB</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="SchmitzDB" uuid="565fc531-2676-4074-8b60-6609eae8b7cd">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/SchmitznGigglesDB/SchmitzDB</jdbc-url>
+    </data-source>
   </component>
 </project>

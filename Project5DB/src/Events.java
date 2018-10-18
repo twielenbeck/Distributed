@@ -1,11 +1,11 @@
 import java.sql.*;
 import java.util.List;
+import java.util.Scanner;
 
 public class Events implements EventInterface {
 
-
     @Override
-    public List<EventBean> getAllEvents() {
+    public List<Events> eventList() {
         return null;
     }
 
@@ -21,9 +21,9 @@ public class Events implements EventInterface {
             System.out.println("Inserting records into the table...");
             stmt = conn.createStatement();
 
-            String sql = "INSERT INTO EVENTS " +
-                    "VALUES (3, 'Katelyns Wasteland', 'A new drama by Patrick Schmitz: When Katelyns cancer goes into remission she must reconnect with the family she abandoned, or move on and accept that you can never go home. Based on true events and T.S. Eliots The Wasteland.', '06/19/2019', 'katewasteland', 11.00)";
-            stmt.executeUpdate(sql);
+            //String sql = "INSERT INTO EVENTS " +
+              //      "VALUES (3, 'Katelyns Wasteland', 'A new drama by Patrick Schmitz: When Katelyns cancer goes into remission she must reconnect with the family she abandoned, or move on and accept that you can never go home. Based on true events and T.S. Eliots The Wasteland.', '06/19/2019', 'katewasteland', 11.00)";
+            //stmt.executeUpdate(sql);
             System.out.println("Inserted records into the table...");
             //Clean-up environment
             stmt.close();
@@ -74,6 +74,7 @@ public class Events implements EventInterface {
                 double price = rs.getDouble("Price");
 
 
+
                 //Display values
                 System.out.print("\nID: " + id.trim());
                 System.out.print(", Name: " + name);
@@ -107,5 +108,42 @@ public class Events implements EventInterface {
                 se.printStackTrace();
             }//end finally try
         }//end try
+    }
+
+    @Override
+    public void deleteContent() {
+        System.out.println("You have selected to delete events.");
+    }
+
+    @Override
+    public void updateContent() {
+        Scanner sc = new Scanner(System.in);
+        int updateMenu = 0;
+        System.out.println("Choose an event number to update: ");
+        outputDB();
+        updateMenu = sc.nextInt();
+
+    }
+
+    @Override
+    public void menuOutput() {
+        Scanner sc = new Scanner(System.in);
+        int menuChoice = 0;
+        while (menuChoice != 4) {
+            System.out.println("\n***************************");
+            System.out.println(  "*********Main Menu*********");
+            System.out.println("1. List Events");
+            System.out.println("2. Update Events");
+            System.out.println("3. Delete Events");
+            System.out.println("4. Exit");
+            System.out.println("***************************\n");
+            menuChoice = sc.nextInt();
+            switch (menuChoice) {
+                case 1: outputDB();break;
+                case 2: updateContent();break;
+                case 3: deleteContent();break;
+            }
+        }
+
     }
 }

@@ -2,7 +2,8 @@ package us.tomwielenbeck.model;
 
 import java.util.List;
 
-public interface EventInterface {
+public interface EventInterface
+{
     List<Event> getAllEvents();
     Event getEventByName(String name);
     List<Event> searchEvents(String search);

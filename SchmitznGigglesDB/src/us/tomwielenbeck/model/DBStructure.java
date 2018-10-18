@@ -28,13 +28,14 @@ public class DBStructure
             // INSERT ROWS into the EVENTS table.
             insertEventsTable(conn);
             
-            // Close the connection.
+            // Close the connections
+            eventRs.close();
+            cartRs.close();
             conn.close();
         } catch (Exception e)
         {
             e.getMessage();
         }
-        
     }
     
     public static void buildEventsTable(Connection conn) throws SQLException
@@ -55,7 +56,6 @@ public class DBStructure
     public static void buildCartTable(Connection conn) throws SQLException
     {
         Statement stmt = conn.createStatement();
-        
         stmt.execute("CREATE TABLE CART (" +
                 "CustomerNumber INT NOT NULL PRIMARY KEY, " +
                 "ProductNumber INT NOT NULL, " +
@@ -69,7 +69,6 @@ public class DBStructure
     public static void insertEventsTable(Connection conn) throws SQLException
     {
         Statement stmt = conn.createStatement();
-        
         stmt.executeUpdate("INSERT INTO EVENTS VALUES" +
                 "(1, " +
                 "'Sketch 22', " +
@@ -119,6 +118,7 @@ public class DBStructure
                 "'Underground Collaborative', " +
                 "'04/19/19 07:30 PM', " +
                 "'merlin')");
+        
         stmt.executeUpdate("INSERT INTO EVENTS VALUES" +
                 "(6, " +
                 "'Who Dunnit Halloween Show', " +

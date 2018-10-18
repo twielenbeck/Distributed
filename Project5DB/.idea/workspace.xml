@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0bd86e-8d2f-476f-a2eb-dea0e4393d35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project5DB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/Project5DB/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project5DB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Project5DB/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project5DB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/Project5DB/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project5DB/seg0/c1030.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Project5DB/seg0/c1030.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreateProject5DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateProject5DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchmitznGigglesDB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SchmitznGigglesDB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchmitznGigglesDB/src/us/tomwielenbeck/model/DBStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchmitznGigglesDB/src/us/tomwielenbeck/model/DBStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchmitznGigglesDB/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SchmitznGigglesDB/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchmitznGigglesDB/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SchmitznGigglesDB/web/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +41,7 @@
     <session id="646139260">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.11" value="1" />
@@ -122,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CreateProject5DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="867">
+              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#dropTables#0;class#CreateProject5DB#0" />
@@ -276,7 +265,7 @@
       <workItem from="1539657157622" duration="15000" />
       <workItem from="1539838131960" duration="5016000" />
       <workItem from="1539843266771" duration="3634000" />
-      <workItem from="1539847102458" duration="768000" />
+      <workItem from="1539847102458" duration="1353000" />
     </task>
     <servers />
   </component>
@@ -286,7 +275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32042000" />
+    <option name="totallyTimeSpent" value="32627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -398,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreateProject5DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="867">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#dropTables#0;class#CreateProject5DB#0" />

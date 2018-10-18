@@ -41,13 +41,14 @@ public class CreateProject5DB
             //dropTables(conn);
 
             ResultSet eventRs = conn.getMetaData().getTables(null, "APP", "EVENTS", null);
-            if(eventRs.next())
-            {
-                System.out.println("Event table exists. Skipping build.");
-            } else
+            if(!eventRs.next())
             {
                 // Build the Events table.
                 buildEventsTable(conn);
+
+            } else
+            {
+                System.out.println("Event table exists. Skipping build.");
             }
 
             //insert data into the Events table.

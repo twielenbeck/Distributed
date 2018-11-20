@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GatesOfHeaven">
+    <output-path>$PROJECT_DIR$/out/artifacts/GatesOfHeaven</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GatesOfHeaven" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="GatesOfHeaven/web/Web" />
+    </root>
+  </artifact>
+</component>

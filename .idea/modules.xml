@@ -7,9 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$//DistributedJava.iml" filepath="$PROJECT_DIR$//DistributedJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" filepath="$PROJECT_DIR$/DrinkAdvisor/DrinkAdvisor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ELProject/ELProject.iml" filepath="$PROJECT_DIR$/ELProject/ELProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FavoriteDrinks/FavoriteDrinks.iml" filepath="$PROJECT_DIR$/FavoriteDrinks/FavoriteDrinks.iml" />
       <module fileurl="file://$PROJECT_DIR$/GatesOfHeaven/GatesOfHeaven.iml" filepath="$PROJECT_DIR$/GatesOfHeaven/GatesOfHeaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPCookie/JSPCookie.iml" filepath="$PROJECT_DIR$/JSPCookie/JSPCookie.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSPEL/JSPEL.iml" filepath="$PROJECT_DIR$/JSPEL/JSPEL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Movies/Movies.iml" filepath="$PROJECT_DIR$/Movies/Movies.iml" />
       <module fileurl="file://$PROJECT_DIR$/NameMVC/NameMVC.iml" filepath="$PROJECT_DIR$/NameMVC/NameMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project5DB/Project5DB.iml" filepath="$PROJECT_DIR$/Project5DB/Project5DB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" filepath="$PROJECT_DIR$/SampleMVCWithCart/SampleMVCWithCart.iml" />
@@ -17,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/SchmitznGigglesDB/SchmitznGigglesDB.iml" filepath="$PROJECT_DIR$/SchmitznGigglesDB/SchmitznGigglesDB.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondServlet/SecondServlet.iml" filepath="$PROJECT_DIR$/SecondServlet/SecondServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" filepath="$PROJECT_DIR$/SimpleServlet/SimpleServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teams/src/main/main.iml" filepath="$PROJECT_DIR$/teams/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MovieRatings/src/main/main1.iml" filepath="$PROJECT_DIR$/MovieRatings/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MovieRatings/src/test/test.iml" filepath="$PROJECT_DIR$/MovieRatings/src/test/test.iml" />
     </modules>
   </component>
 </project>
